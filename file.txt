@@ -1,0 +1,12 @@
+english - uzb
+
+1. age - yosh
+2. home - uy
+3. try - harakat
+4. horse - ot
+5. name - ism
+6. school - maktab
+7. monkey - maymun
+8. dog - kuchuk
+9. cat - mushuk
+10. hello - salom

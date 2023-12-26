@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "name": "Google",
+      "owner": {
+        "first_name": "Azimjon",
+        "last_name": "Pulatov"
+      },
+      "workers": [
+        {
+          "id": 1,
+          "first_name": "Tom",
+          "last_name": "Cruise",
+          "salary": 14000,
+          "level": "l3"
+        },
+        {
+          "id": 2,
+          "first_name": "Dwayne",
+          "last_name": "Jonson",
+          "salary": 19000,
+          "level": "l2"
+        },
+        {
+          "id": 3,
+          "first_name": "Steve",
+          "last_name": "Jobs",
+          "salary": 23000,
+          "level": "l5"
+        },
+        {
+          "id": 4,
+          "first_name": "Cristiano",
+          "last_name": "Ronaldo",
+          "salary": 5000,
+          "level": "l1"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "owner": {
+        "first_name": "Steve",
+        "last_name": "Jobs"
+      },
+      "workers": [
+        {
+          "id": 5,
+          "first_name": "Tom",
+          "last_name": "Hardy",
+          "salary": 14000,
+          "level": "l3"
+        },
+        {
+          "id": 2,
+          "first_name": "Dwayne",
+          "last_name": "Jonson",
+          "salary": 21000,
+          "level": "l3"
+        },
+        {
+          "id": 6,
+          "first_name": "Vin",
+          "last_name": "Dizel",
+          "salary": 15000,
+          "level": "l4"
+        },
+        {
+          "id": 7,
+          "first_name": "Leo",
+          "last_name": "Messi",
+          "salary": 15000,
+          "level": "l5"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Meta",
+      "owner": {
+        "first_name": "Mark",
+        "last_name": "Zuckerberg"
+      },
+      "workers": [
+        {
+          "id": 8,
+          "first_name": "Rahmatullayev",
+          "last_name": "Khojiakbar",
+          "salary": 100000,
+          "level": "l7"
+        },
+        {
+          "id": 9,
+          "first_name": "Toxirov",
+          "last_name": "Fozilbek",
+          "salary": 21000,
+          "level": "l4"
+        }
+      ]
+    }
+  ]

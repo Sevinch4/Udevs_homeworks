@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lion",
+        "type": "wild",
+        "sound": "lion's sound"
+    },
+    {
+        "name": "dog",
+        "type":"domestic",
+        "sound": "dog's sound"
+    },
+    {
+        "name": "money",
+        "type": "wild",
+        "sound": "monkey's sound"
+    }
+]

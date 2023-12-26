@@ -1,2 +1,1 @@
-# Udevs_homeworks
-homework tasks
+# homework
