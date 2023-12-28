@@ -18,8 +18,8 @@ func NewProduct(db *sql.DB) ProductRepo {
 
 // insert
 func (p ProductRepo) InsertProduct(prod products.Product) error {
-	if _, err := p.db.Exec(`insert into product (id,name,price,category_id,created_at,updated_at) values($1,$2,$3,$4,$5,$6)`,
-		&prod.ID, &prod.Name, &prod.Price, &prod.Category_id, &prod.Created_at, &prod.Updated_at); err != nil {
+	if _, err := p.db.Exec(`insert into product (id,name,price,category_id) values($1,$2,$3,$4)`,
+		&prod.ID, &prod.Name, &prod.Price, &prod.Category_id); err != nil {
 		return err
 	}
 	return nil

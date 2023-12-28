@@ -47,10 +47,8 @@ choose option:
 			fmt.Print("Input category name: ")
 			fmt.Scan(&category_name)
 			cat := categories.Category{
-				ID:         uuid.New(),
-				Name:       category_name,
-				Created_at: time.Now(),
-				Updated_at: time.Now(),
+				ID:   uuid.New(),
+				Name: category_name,
 			}
 			if err = categoryRepo.InsertCategory(cat); err != nil {
 				fmt.Println("error is while inserting", err)
@@ -143,8 +141,6 @@ choose option:
 				Name:        product_name,
 				Price:       price,
 				Category_id: id_category,
-				Created_at:  time.Now(),
-				Updated_at:  time.Now(),
 			}
 			if err = productRepo.InsertProduct(product); err != nil {
 				fmt.Println("error is while inserting data", err)

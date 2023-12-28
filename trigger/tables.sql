@@ -13,8 +13,17 @@ create table company(
     employees_count int
 );
 
---create trigger
+--trigger func
+    create or replace function trigger_func() returns trigger $$
+           begin
 
+           end;
+           $$ language pgsql
+--create trigger
+create trigger
+
+
+--function
 create function employee()
 returns varchar,varchar,int,varchar
 language plpgsql

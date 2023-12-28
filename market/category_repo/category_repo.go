@@ -18,7 +18,7 @@ func NewCategory(db *sql.DB) CategoryRepo {
 
 // insert
 func (c CategoryRepo) InsertCategory(category categories.Category) error {
-	if _, err := c.db.Exec(`insert into category (id,name,created_at,updated_at) values ($1,$2,$3,$4)`, &category.ID, &category.Name, &category.Created_at, &category.Updated_at); err != nil {
+	if _, err := c.db.Exec(`insert into category (id,name) values ($1,$2)`, &category.ID, &category.Name); err != nil {
 		return err
 	}
 	return nil
