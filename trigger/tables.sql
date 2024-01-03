@@ -1,5 +1,5 @@
-create table employers(
-    id uuid primary key ,
+create table employees(
+    id uuid ,
     name varchar(30),
     phone varchar(20),
     company_id serial primary key ,
@@ -13,27 +13,4 @@ create table company(
     employees_count int
 );
 
---trigger func
-    create or replace function trigger_func() returns trigger $$
-           begin
-
-           end;
-           $$ language pgsql
---create trigger
-create trigger
-
-
---function
-create function employee()
-returns varchar,varchar,int,varchar
-language plpgsql
-as
-$$
-declare
- n varchar(30);
- p varchar(20);
- s int ;
- n_c varchar(30);
-        begin
-        select e.name into n,e.phone into p,e.salary into s,c.name into n_c from company as c join employers e on c.id = e.company_id;
-    return n,p,s,n_c;
+insert into company(id,name,employees_count) values (1,'google',12),(2,'meta',10);
