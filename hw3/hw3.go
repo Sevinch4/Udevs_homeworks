@@ -118,12 +118,12 @@ func main() {
 
 	//task-7
 	fmt.Println("Task-7")
-	var a, b, c int
+	var a7, b7, c int
     fmt.Print("Input three numbers: ")
     fmt.Scan(&a,&b,&c)
-    sum1 := a + b
-    sum2 := b + c
-    sum3 := a + c
+    sum1 := a7 + b7
+    sum2 := b7 + c
+    sum3 := a7 + c
     maxSum := sum1
     if sum2 > maxSum {
         maxSum = sum2
